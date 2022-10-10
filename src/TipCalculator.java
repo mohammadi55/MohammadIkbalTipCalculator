@@ -16,7 +16,10 @@ public class TipCalculator {
         tip2 = Math.round(tip2*100.0)/100.0;
         double tip3= (tip2+bill/people);
         tip3 = Math.round(tip3*100.0)/100.0;
-        System.out.println("The total tip person is " + tip2);
+        System.out.println("The total bill is "+bill);
+        System.out.println("The total number of people is "+people);
+        System.out.println("The tip percentage is "+tip);
+        System.out.println("The total tip per person is " + tip2);
         System.out.println("The total tip amount is "+ (tip3*100.0)/100.0);
         System.out.println("The total bill including tip is " +(bill+tip3));
 
